@@ -26,17 +26,17 @@
             .tp-bullet{
                 height: 10px;
                 width: 10px;
-                background: #b3adff;
+                background: #29405b;
                 border: 5px solid #fff;
                 &.selected{
-                    background: #97cdfe;
-                    border-color: #97cdfe;
+                    background: #556b88;
+                    border-color: #556b88;
                 }
             }
         }
         .tp-leftarrow, .tp-rightarrow{
             height: 120px;
-            background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+            background-image: linear-gradient(to right, #455368 0%, #1c2b3d 51%, #455368 100%);
             background-size: 200% auto;
             width: 138px;
             border: 10px solid rgba(204, 241, 255, 0.5);
