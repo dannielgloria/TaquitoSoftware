@@ -3,7 +3,7 @@
     $to = "taquitosoftware@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
+    $csubject = $_REQUEST['subject'];
     $number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
 
@@ -15,8 +15,8 @@
 
     $subject = "Tienes un mensaje de Taquito Software.";
 
-    $logo = '#';
-    $link = '#';
+    $logo = 'http://www.taquitosoftware.com.mx/img/logo.png';
+    $link = 'http://www.taquitosoftware.com.mx/';
 
 	$body = "<!DOCTYPE html><html lang='es'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
@@ -32,6 +32,6 @@
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-    $send = mail($to, $subject, $body, $headers);
+    $send = mail($to, $csubject, $body, $headers);
 
 ?>
