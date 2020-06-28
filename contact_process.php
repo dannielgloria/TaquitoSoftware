@@ -32,6 +32,6 @@
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-    $send = mail($to, $csubject, $body, $headers);
+	$send = mail($to, $csubject, $body, $headers);
 
 ?>
